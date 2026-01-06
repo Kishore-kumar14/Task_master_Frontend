@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Trash2, Plus, CheckCircle2, Circle } from 'lucide-react';
 
-const API_URL ='https://task-master-backend-fhlp.onrender.com/';
+const API_URL ='https://task-master-backend-fhlp.onrender.com/tasks';
 
 function App() {
   const [tasks, setTasks] = useState([]);
